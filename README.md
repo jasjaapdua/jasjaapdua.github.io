@@ -16,7 +16,7 @@ I’ve adapted it for my own personal portfolio website.
 ## 📸 Repository Screenshot
 Here’s a screenshot of my GitHub repo after cloning and updating:  
 
-![Repo Screenshot](./assets/img/screenshot_activity_1.png)
+![Repo Screenshot](./assets/img/activities/activity_1_screenshot.png)
 
 ---
 

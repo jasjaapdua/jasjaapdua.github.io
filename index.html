@@ -338,75 +338,20 @@
       </div>
     </section>
 
+    
+
     <!-- Fourth Section: Projects -->
     <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Projects</h3>
-      <div class="container">
-        <div class="row">
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/project-gis-map.png"
-                  style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Geographic Information System<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A comprehensive GIS leveraging the OpenStreetMap (OSM) database
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Skills:</b> C++, Data Structures & Algorithms, Agile Methodologies, Git Version Control,
-                    Software Design & Communication</li>
-                  <li>Visualisation: Detailed visualisation of buildings, water bodies, terrain, roads, landmarks and
-                    other points of interest.</li>
-                  <li>Navigation: Implemented navigation between city intersections using Dijkstra and A* algorithms for
-                    optimal pathfinding.</li>
-                  <li>Optimisation: Attempted to solve a variation of the Travelling Salesman Problem using 2-opt
-                    perturbations and a Dijkstra memoization matrix for enhanced efficiency.</li>
-                </ul>
-              </div>
-            </div>
+      <section id="recent-projects" class="section scrollspy">
+        <h3 class="page-title white-text teal">Recent Projects</h3>
+        <div class="container">
+          <div id="recent-projects-container" class="row">
           </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="quiz app" src="/assets/img/project-celeste.jpg" style="height: 100%; width: 100%"
-                  class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Celeste PICO-8 for Terasic DE1-SoC<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Recreated the Celeste Pico-8 game for the Terasic DE1-SoC board using C.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools: </b>C, ImageMagick, FPGA, ARM Assembly</li>
-                  <li>Graphics Buffering: Buffered backgrounds and sprites onto a VGA display.</li>
-                  <li>C++ Parser Development: Automated the conversion of ImageMagick output files (pixel matrices) into C-arrays for efficient and convenient sprite buffering.</li>
-                  <li>Gameplay Mechanics: Implemented features such as wall and obstacle collision, and respawn upon death.</li>
-                  <li>Control Integration: Integrated support for controlling the in-game sprite using FPGA board buttons and a PS/2 keyboard through interrupt and polling methods.</li>
-
-                </ul>
-              </div>
-            </div>
+          <div class="center-align">
+            <button id="load-more-btn" class="btn teal">Load More</button>
           </div>
-
-          <!-- ************* -->
         </div>
-      </div>
+      </section>
     </section>
 
     <!-- Fifth Section: Skills -->
@@ -656,6 +601,7 @@
       })
     })
   </script>
+  <script src="/assets/vendor/typed.js/recent_projects.js"></script>
 </body>
 
 </html>

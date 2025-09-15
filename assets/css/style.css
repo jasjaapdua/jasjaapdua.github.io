@@ -190,7 +190,7 @@ dt {
 }
 
 ul.side-nav {
-  width: 190px;
+  width: 220px;
 }
 
 ul.side-nav li {
@@ -257,6 +257,7 @@ h3 {
   margin-top: 0;
   padding: 30px 40px;
   text-transform: uppercase;
+  margin-left: 25px;
 }
 
 .section {

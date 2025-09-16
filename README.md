@@ -13,13 +13,6 @@ I’ve adapted it for my own personal portfolio website.
 
 ---
 
-## 📸 Repository Screenshot
-Here’s a screenshot of my GitHub repo after cloning and updating:  
-
-![Repo Screenshot](./assets/img/activities/activity_1_screenshot.png)
-
----
-
 ## Features 📋
 ⚡️ Fully Responsive  
 ⚡️ Valid HTML5 & CSS3  
@@ -57,3 +50,29 @@ Here’s a screenshot of my GitHub repo after cloning and updating:
 ## License 📄
 This project is licensed under the MIT License.  
 See the [LICENSE](./LICENSE) file for details.  
+
+## Activities
+
+### Activity 1
+
+![Repo Screenshot](./assets/img/activities/activity_1_screenshot.png)
+
+### Activity 2
+
+![Home Page After Peronsonal Info Change](./assets/img/activities/activity_2_homepage.png)
+![Repo Screenshot](./assets/img/activities/activity_2_repo.png)
+
+### Activity 3
+
+![Home Page After Colour Change](./assets/img/activities/activity_3_homepage.png)
+![Repo Screenshot](./assets/img/activities/activity_3_repo.png)
+
+### Activity 4
+
+![Places Travelled Section](./assets/img/activities/activity_4_places_travelled.png)
+![Repo Screenshot](./assets/img/activities/activity_4_repo.png)
+
+### Activity 5
+
+![Repo Screenshot](./assets/img/activities/activity_5_recent_projects.png)
+![Repo Screenshot](./assets/img/activities/activity_5_repo.png)

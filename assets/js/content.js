@@ -45,7 +45,7 @@ window.portfolioContent = {
     {
       title: 'Eggchi Productivity Tracker',
       url: 'https://github.com/jasjaapdua/eggchi',
-      description: "A gamified productivity tracker that combines task management, reminders and progress tracking with a lightweight reward system.",
+      description: "A gamified productivity tracker that combines task management, reminders and progress tracking with a lightweight reward system in the form of a responsive pet!",
       image: 'assets/img/projects/eggchi.png',
       imageAlt: 'Django development project',
       tags: ["React", "TypeScript", "Vite", "FastAPI", "PostgreSQL", "SQLAlchemy", "Alembic", "Vitest", "Pytest", "GitHub Actions"],

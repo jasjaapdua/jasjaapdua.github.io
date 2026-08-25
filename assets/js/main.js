@@ -57,17 +57,32 @@ function renderProjects() {
     const item = element('li');
     const cardClass = `project-card reveal${project.featured ? ' project-featured' : ''}`;
     const card = element('article', { className: cardClass });
-    const imageContainer = element('div', { className: 'project-image' });
+    const imageContainer = element(project.url ? 'a' : 'div', { className: 'project-image' });
     const image = element('img');
     const projectContent = element('div', { className: 'project-content' });
+    const title = element('h3');
 
     image.src = project.image;
     image.alt = project.imageAlt;
     image.loading = 'lazy';
     imageContainer.append(image);
 
+    if (project.url) {
+      const titleLink = element('a', { text: project.title });
+
+      [imageContainer, titleLink].forEach((link) => {
+        link.href = project.url;
+        link.target = '_blank';
+        link.rel = 'noreferrer';
+      });
+      imageContainer.setAttribute('aria-label', `View ${project.title}`);
+      title.append(titleLink);
+    } else {
+      title.textContent = project.title;
+    }
+
     projectContent.append(
-      element('h3', { text: project.title }),
+      title,
       element('p', { text: project.description }),
       createTagList(project.tags, 'project-tags', 'Technologies used'),
     );

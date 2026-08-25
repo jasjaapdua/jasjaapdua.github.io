@@ -23,8 +23,9 @@ window.portfolioContent = {
   projects: [
     {
       title: 'SMART-ROUNDS (Capstone Project)',
+      url: 'https://github.com/Smart-Rounds/SMART-ROUNDS-BACKEND',
       description: 'An AI-powered platform that transforms medical audio recordings into concise summaries and podcast-style learning content.',
-      image: 'assets/img/project-AI.jpg',
+      image: 'assets/img/projects/smart-rounds.jpg',
       imageAlt: 'Abstract artificial intelligence visualization',
       tags: [
         "Python",
@@ -43,13 +44,15 @@ window.portfolioContent = {
     },
     {
       title: 'Eggchi Productivity Tracker',
+      url: 'https://github.com/jasjaapdua/eggchi',
       description: "A gamified productivity tracker that combines task management, reminders and progress tracking with a lightweight reward system.",
-      image: 'assets/img/project-python-django4.jpg',
+      image: 'assets/img/projects/eggchi.png',
       imageAlt: 'Django development project',
       tags: ["React", "TypeScript", "Vite", "FastAPI", "PostgreSQL", "SQLAlchemy", "Alembic", "Vitest", "Pytest", "GitHub Actions"],
     },
     {
       title: 'Geospatial mapping',
+      url: '',
       description: "GIS Navigation Application is an interactive C++ mapping application built with OpenStreetMap data and a GTK/EZGL interface.",
       image: 'assets/img/project-gis-map.png',
       imageAlt: 'Geographic information system map project',

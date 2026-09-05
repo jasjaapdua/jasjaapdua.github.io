@@ -9,13 +9,13 @@ window.portfolioContent = {
       companyUrl: 'https://www.bayrocklabs.com',
       logo: 'assets/img/bayrocklabs_logo.jpeg',
       logoAlt: 'BayRock Labs logo',
-      role: 'Software Engineering Co-op',
+      role: 'Software Engineer (12-month co-op)',
       date: 'Sep 2024 — Aug 2025',
       location: 'Hyderabad, India',
       highlights: [
-        "Built and maintained backend services for a contract-to-cash platform supporting 150+ client accounts.",
-        "Automated regression testing with 50+ Cypress tests, Entra ID authentication and GitHub Actions.",
-        "Supported production releases across 5+ departments and helped resolve 200+ application and data issues."
+        "Built and maintained Python/Django REST APIs and PostgreSQL-backed workflows for a production contract-to-cash platform.",
+        "Created Cypress regression tests, including Entra ID authentication flows, and ran them automatically through GitHub Actions.",
+        "Shipped production releases and investigated application and data issues with teams across the business."
       ],
       tools: ['Python', 'Django REST', 'Cypress', 'Postman', 'PostgreSQL'],
     },
@@ -24,7 +24,7 @@ window.portfolioContent = {
     {
       title: 'SMART-ROUNDS (Capstone Project)',
       url: 'https://github.com/Smart-Rounds/SMART-ROUNDS-BACKEND',
-      description: 'An AI-powered platform that transforms medical audio recordings into concise summaries and podcast-style learning content.',
+      description: 'Designed the backend for an AI medical-learning platform: authenticated Django REST APIs accept recordings, Celery and Redis coordinate asynchronous transcription and summarization, and generated media is stored in PostgreSQL and AWS S3.',
       image: 'assets/img/projects/smart-rounds.jpg',
       imageAlt: 'Abstract artificial intelligence visualization',
       tags: [
@@ -45,15 +45,15 @@ window.portfolioContent = {
     {
       title: 'Eggchi Productivity Tracker',
       url: 'https://github.com/jasjaapdua/eggchi',
-      description: "A gamified productivity tracker that combines task management, reminders and progress tracking with a lightweight reward system in the form of a responsive pet!",
+      description: "Built a full-stack productivity app with a React/TypeScript interface and FastAPI backend. Implemented task and reward workflows, PostgreSQL persistence with SQLAlchemy migrations, automated tests, and CI.",
       image: 'assets/img/projects/eggchi.png',
-      imageAlt: 'Django development project',
+      imageAlt: 'Eggchi productivity tracker interface',
       tags: ["React", "TypeScript", "Vite", "FastAPI", "PostgreSQL", "SQLAlchemy", "Alembic", "Vitest", "Pytest", "GitHub Actions"],
     },
     {
-      title: 'Geospatial mapping',
+      title: 'C++ Geospatial Routing Engine',
       url: '',
-      description: "GIS Navigation Application is an interactive C++ mapping application built with OpenStreetMap data and a GTK/EZGL interface.",
+      description: "Built an interactive street-map application in C++ that parses OpenStreetMap data, models road networks as graphs, and computes routes with Dijkstra's and A* search. Added a GTK/EZGL interface plus unit and integration tests.",
       image: 'assets/img/project-gis-map.png',
       imageAlt: 'Geographic information system map project',
       tags: [
@@ -81,7 +81,7 @@ window.portfolioContent = {
       ],
     },
     {
-      name: 'Tools',
+      name: 'Frameworks & Infrastructure',
       items: [
         { name: 'Django', logo: 'assets/img/skills/django.png' },
         { name: 'FastAPI', logo: 'assets/img/skills/fastapi.png' },

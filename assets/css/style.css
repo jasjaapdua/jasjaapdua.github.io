@@ -139,6 +139,17 @@ img {
     width: 100%
 }
 
+.nav-links .nav-icon-link {
+    display: flex;
+    align-items: center;
+    padding: 2px
+}
+
+.nav-icon-link svg {
+    width: 21px;
+    height: 21px
+}
+
 .menu-toggle {
     display: none
 }
@@ -472,7 +483,7 @@ section[id] {
 
 .project-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 22px;
     margin: 0;
     padding: 0;
@@ -490,23 +501,11 @@ section[id] {
     box-shadow: 0 18px 38px #1018281a
 }
 
-.project-featured {
-    grid-row: span 2
-}
-
-.project-grid>li:first-child {
-    grid-row: span 2
-}
-
 .project-image {
     display: block;
     height: 245px;
     overflow: hidden;
     background: #d9e2f0
-}
-
-.project-featured .project-image {
-    height: 355px
 }
 
 .project-image img {
@@ -727,57 +726,6 @@ section[id] {
     color: var(--muted)
 }
 
-.contact-section {
-    min-height: calc(100svh - 80px);
-    display: flex;
-    align-items: center;
-    padding: 72px 0;
-    background: var(--blue);
-    color: #fff
-}
-
-.contact-section .eyebrow {
-    color: #e7eeff
-}
-
-.contact-section .eyebrow span {
-    background: var(--lime)
-}
-
-.contact-section h2 {
-    max-width: 810px;
-    margin: 18px 0 14px;
-    font-size: clamp(43px, 5vw, 70px);
-    line-height: 1.06;
-    letter-spacing: -.07em
-}
-
-.contact-email {
-    display: inline-block;
-    font: 600 clamp(19px, 2.1vw, 29px)/1.5 'Playfair Display', Georgia, serif;
-    border-bottom: 1px solid #fff
-}
-
-.contact-links {
-    display: flex;
-    gap: 25px;
-    margin-top: 64px;
-    margin-bottom: 0;
-    padding: 0;
-    list-style: none;
-    font: 500 11px 'DM Mono', monospace;
-    text-transform: uppercase;
-    letter-spacing: .08em
-}
-
-.contact-links a {
-    border-bottom: 1px solid transparent
-}
-
-.contact-links a:hover {
-    border-color: #fff
-}
-
 .footer {
     background: var(--navy);
     color: #98a2b3;
@@ -807,8 +755,7 @@ section[id] {
 }
 
 @media(max-width:760px) {
-    .section,
-    .contact-section {
+    .section {
         min-height: auto
     }
 
@@ -948,12 +895,7 @@ section[id] {
         grid-template-columns: 1fr
     }
 
-    .project-grid>li:first-child {
-        grid-row: auto
-    }
-
-    .project-image,
-    .project-featured .project-image {
+    .project-image {
         height: 220px
     }
 
@@ -982,18 +924,6 @@ section[id] {
 
     .education-section {
         padding-top: 80px
-    }
-
-    .contact-section {
-        padding: 80px 0
-    }
-
-    .contact-section h2 {
-        font-size: 46px
-    }
-
-    .contact-links {
-        margin-top: 44px
     }
 
     .footer .container {
